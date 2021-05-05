@@ -11,4 +11,4 @@ xhr.open("GET", "https://graph.instagram.com/17841403737404666/media?access_toke
 
 xhr.send();
 
-document.write(xhr.response)
+document.write("Test")
