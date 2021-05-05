@@ -12,5 +12,6 @@ xhr.open("GET", "https://graph.instagram.com/17841403737404666/media?access_toke
 xhr.send();
 var test = xhr.response;
 
+console.log("Updated 21:04");
 test.forEach(element => console.log(element));
 
