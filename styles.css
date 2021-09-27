@@ -1,19 +1,26 @@
-div.gallery img {
-    display:inline-block;
-    width: 200px;
-    height: auto;
-    margin-left: 10px;
-    border: 2px solid black;
+html {
+  height: 98%;
 }
 
-div.gallery {
-    height: auto;
-    width: 1500px;
-    float: left;
-    padding-left: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #333333;
-    padding-top: 20px;
-    padding-right: 20px;
+body {
+  height: 100%;
+  background-color: #59616f;
+}
+h1 {
+  color: white;
+  font-family: Arial Black;
+  font-size: 300%;
+}
+
+div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+span {
+  border-bottom: 7px solid #815291;
 }
